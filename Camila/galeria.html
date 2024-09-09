@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Interfaz Principal</title>
+    <style>
+        body {
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            background: linear-gradient(to bottom, #efff086e, #1750ba);
+            font-size: 25px;
+        }
+        header {
+            background-color: #ba2317;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            justify-content: flex-start; 
+            margin-bottom: 20px; 
+        }
+
+        .image-item img {
+            max-width: 450px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-item p {
+            margin: 0;
+            max-width: 400px; 
+        }
+
+        footer {
+            background-color: #a117ba;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Soy Camila y estas son mis fotos</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Galería de Imágenes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="../Camila/Imagenes/Prima.png" alt="Imagen 1">
+                    <p>Fueron los 15 de mi prima Valeria, y asistimos a la fiesta que había hecho para el 20 de julio.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Camila/Imagenes/Cumpleaños.png" alt="Imagen 2">
+                    <p>Fue mi cumpleaños número 16 y fuimos a sport house a celebrarlos y a jugar voleibol</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Camila/Imagenes/Noche.png" alt="Imagen 3">
+                    <p>Fueron mis cumpleaños pero está vez en la noche, fuimos a cenar a un restaurante y de nuevo a cantarme el cumpleaños con la familia.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Camila/Imagenes/Pareja.png" alt="Imagen 3">
+                    <p>Estuve con mi pareja porque cumplíamos dos años de estar juntos así que fuimos a la granja burger</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Camila/Imagenes/Voley.png" alt="Imagen 3">
+                    <p>Nos hicieron sesión de fotos para los intercolegiados, porque estamos representando al colegio con el deporte de voleibol</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Camila Trivin</p>
+    </footer>
+</body>
+</html>
